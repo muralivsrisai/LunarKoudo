@@ -1,6 +1,4 @@
 {
-    "installCommand": "npm install --include=dev",
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist"
-  }
-  
+  "buildCommand": "cd study-materials-frontend && npm install && npm run build",
+  "outputDirectory": "study-materials-frontend/dist"
+}
